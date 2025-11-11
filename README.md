@@ -8,6 +8,6 @@ Lista de Paginas:
 
 
 Integrantes do grupo:
-Renato:https://github.com/Ren4toDaSilva
+Renato: https://github.com/Ren4toDaSilva
 Gabriel:
-João:
+João: https://github.com/joao-riffel
