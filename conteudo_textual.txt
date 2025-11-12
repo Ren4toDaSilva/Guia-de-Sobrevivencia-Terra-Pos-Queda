@@ -1,0 +1,184 @@
+﻿PROJETO: GUIA DE SOBREVIVÊNCIA — ANO 2045
+Landing Page — Introdução
+Título: “Guia de Sobrevivência”
+Introdução Narrativa:
+Em 2045, o mundo que conhecíamos entrou em colapso. Um evento global conhecido apenas como “A Falha” destruiu cidades, apagou redes de energia e corrompeu a própria natureza. De sua poeira surgiram criaturas mutantes — os Vácua —, nascidas da mistura entre radiação, biotecnologia e desespero humano.
+O que restou da civilização se fragmentou em pequenos núcleos. Comunidades escondidas sobrevivem nos escombros, compartilhando conhecimento por antigos canais de comunicação digital. Nós somos os Comunicadores de Campo — responsáveis por compilar e transmitir informações vitais para os sobreviventes.
+Este site é o Guia de Sobrevivência da Falha.
+Aqui, você encontrará tudo o que precisa para resistir: registros das criaturas conhecidas, táticas de combate, instruções para construir abrigo, obter alimento e localizar postos seguros.
+Lembre-se: o conhecimento é a última arma que restou à humanidade.
+________________
+
+
+Bestiário — Criaturas Conhecidas
+Frase em destaque: “Conhecer o inimigo é o primeiro passo para sobreviver.”
+Cada criatura listada abaixo foi registrada por sobreviventes e analisada em campo pelos Comunicadores. As informações são constantemente atualizadas conforme novas observações.
+1. Espiral
+(Imagem placeholder)
+ Descrição: Criatura bípede de pele translúcida, seus órgãos giram em espiral dentro do corpo. Move-se rapidamente em áreas úmidas.
+Ponto fraco: Sensível à luz ultravioleta — evite confrontos noturnos.
+Tática recomendada: Utilize lanternas UV ou refletores improvisados para desorientá-la e escapar.
+________________
+
+
+2. Rastejante Cinzento
+📷 (Imagem placeholder)
+ Descrição: Parasita com múltiplos apêndices e odor característico de enxofre. Habita ruínas e galerias subterrâneas.
+ Ponto fraco: Vulnerável ao som de alta frequência.
+Tática recomendada: Use alarmes portáteis, rádios danificados ou metal contra metal para afastá-lo.
+________________
+
+
+3. Sirena
+📷 (Imagem placeholder)
+ Descrição: Criatura aquática que imita vozes humanas para atrair vítimas. Presente em zonas costeiras e canais contaminados.
+ Ponto fraco: Precisa de água para se mover — em terra, é lenta e vulnerável.
+ Tática recomendada: Engane-a reproduzindo sons falsos e ataque à distância enquanto tenta subir à superfície.
+________________
+
+
+4. Oco
+(Imagem placeholder)
+ Descrição: Figura humanoide oca, emite sons metálicos ao se mover. Encontrada em áreas industriais.
+Ponto fraco: Núcleo de energia instável na região torácica.
+Tática recomendada: Mire no centro do peito com objetos perfurantes ou armas improvisadas.
+________________
+
+
+5. Carniçal de Névoa
+(Imagem placeholder)
+ Descrição: Forma gasosa que se condensa apenas ao atacar. Invisível ao olho nu fora da neblina.
+Ponto fraco: Fragilizado por calor intenso.
+Tática recomendada: Utilize fogo, sinalizadores ou tochas para dissipar sua forma.
+________________
+
+
+6. Vetor
+(Imagem placeholder)
+ Descrição: Pequenos enxames de insetos biocibernéticos. Desativam circuitos e atacam em massa.
+Ponto fraco: Pulso eletromagnético.
+Tática recomendada: Use baterias sobrecarregadas ou dispositivos de curto-circuito para neutralizá-los.
+________________
+
+
+7. Mimético
+📷 (Imagem placeholder)
+ Descrição: Copia aparência e voz de humanos recentemente observados. Quase indistinguível até atacar.
+Ponto fraco: Reflexos retardados — teste com perguntas ou sinais combinados.
+Tática recomendada: Nunca ande sozinho. Faça verificações de identidade com gestos ou palavras-chave.
+________________
+
+
+8. Colosso de Ferro
+(Imagem placeholder)
+ Descrição: Mutação massiva de antiga maquinaria industrial. Move-se lentamente, mas com força devastadora.
+Ponto fraco: Juntas enferrujadas — atinja as conexões metálicas.
+Tática recomendada: Evite combate direto. Use distrações sonoras e fuja por rotas estreitas.
+________________
+
+
+9. Vácuo Alfa
+(Imagem placeholder)
+ Descrição: A mais rara e perigosa mutação conhecida. Alimenta-se de energia vital e deixa regiões inteiras inabitáveis.
+Ponto fraco: Nenhum confirmado — teorias indicam instabilidade sob campos elétricos intensos.
+Tática recomendada: Evacuação imediata. Nenhum sobrevivente confirmou vitória em confronto direto.
+________________
+
+
+Guias Práticos de Sobrevivência
+Frase de destaque: “Sobreviver não é sorte — é método.”
+Abrigos
+Passos essenciais:
+1. Priorize locais acima do nível do solo e com apenas uma entrada.
+
+2. Reforce portas com metal, tábuas ou entulho compactado.
+
+3. Isole rachaduras com tecidos, plásticos ou borracha para evitar entrada de gases e criaturas pequenas.
+
+4. Nunca use abrigos abandonados sem antes verificar sinais de infestação (manchas, ruídos, odores).
+
+5. Monte armadilhas sonoras improvisadas (latas, fios) para alerta noturno.
+
+________________
+
+
+Alimentação
+Checklist de segurança:
+   * ✅ Prefira enlatados e alimentos selados de fábricas antigas.
+
+   * ⚠️ Nunca consuma carne de animais encontrados mortos.
+
+   * ✅ Ferva água por no mínimo 5 minutos antes do consumo.
+
+   * ⚠️ Frutas mutantes (luminosas ou de odor metálico) são tóxicas.
+
+   * ✅ Armazene alimentos em locais secos e escuros.
+
+________________
+
+
+📡 Sinais de Socorro
+Como chamar ajuda:
+      1. Três sinais de luz ou som consecutivos indicam “pedido de ajuda”.
+
+      2. Fogueiras triangulares à noite são sinal universal de sobreviventes.
+
+      3. Use espelhos, vidros ou superfícies metálicas para refletir luz durante o dia.
+
+      4. Registre símbolos em ruínas: (utilizar diferentes icons para demonstrar abaixo)
+
+         * “△” = área segura
+
+         * “⚠” = risco médio
+
+         * “✖” = infestação ou armadilha
+
+________________
+
+
+💉 Primeiros Socorros
+Procedimentos rápidos:
+            1. Lave ferimentos com água fervida ou álcool.
+
+            2. Evite uso de medicamentos pré-Falha sem verificar rótulo legível.
+
+            3. Em caso de mordida por Vácua, isole o ferido e monitore o comportamento.
+
+            4. Utilize faixas improvisadas com tecidos limpos.
+
+            5. Queimaduras leves: use compressas frias e evite exposição solar.
+
+________________
+
+
+Mapa e Locais Seguros
+Frase de destaque: “Nem todo lugar perdido está morto.”
+(utilizar diferentes icons/cores para representar os níveis de segurança)
+Nome do Posto
+	Descrição
+	Coordenadas (fictícias)
+	Nível de Segurança
+	Posto Aurora
+	Instalação subterrânea com purificadores de ar e estufas ativas.
+	45°N, 12°W
+	🔵 Alta
+	Refúgio Delta-9
+	Base improvisada em antiga estação de metrô, abriga até 30 pessoas.
+	23°S, 46°W
+	🟢 Média
+	Farol Horizonte
+	Torre costeira automatizada; emite sinal de rádio contínuo.
+	18°N, 25°E
+	🟡 Média
+	Colônia Kairós
+	Comunidade organizada com defesas mecânicas e energia solar.
+	11°S, 38°W
+	🔵 Alta
+	Zona Neutra 07
+	Território sem registros de Vácua por mais de 100 dias.
+	08°S, 50°W
+	🟢 Média
+	Refúgio Espectro
+	Antigo laboratório reativado, mas sujeito a ataques de Vetores.
+	34°N, 20°W
+	🔴 Baixa
