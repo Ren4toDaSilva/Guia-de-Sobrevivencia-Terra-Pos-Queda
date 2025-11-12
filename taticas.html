@@ -1,11 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Táticas — Guias Práticos</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background: #ffffff;
+      color: #2b2b2b;
+    }
+
+    header {
+      background: #405a85;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    section:nth-child(even) {
+      grid-template-columns: 1fr 1fr;
+      direction: rtl;
+    }
+
+    section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 2rem;
+      direction: ltr;
+    }
+
+    h2 {
+      color: #1e293b;
+      margin-top: 0;
+    }
+
+    ol, ul {
+      padding-left: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    ul.list-group li::marker {
+      color: #3b82f6;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        grid-template-columns: 1fr;
+      }
+      section:nth-child(even) {
+        direction: ltr;
+      }
+      .content {
+        padding: 1.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Táticas — Guias Práticos</h1>
+    <p>Dicas essenciais para sobrevivência e segurança.</p>
+  </header>
+
+  <main>
     
+    <section id="abrigos">
+      <img src="./assets/abrigo.jpg" alt="Abrigo improvisado na floresta">
+      <div class="content">
+        <h2>Abrigos</h2>
+        <ol>
+          <li>Escolha um local elevado e seco, longe de rios e vales.</li>
+          <li>Use galhos e folhas para isolamento térmico.</li>
+          <li>Monte o abrigo com uma entrada voltada contra o vento.</li>
+          <li>Crie uma camada de folhas secas como colchão natural.</li>
+        </ol>
+      </div>
+    </section>
+
+    
+    <section id="alimentacao">
+      <img src="./assets/comida comestibesis.jpg" alt="Frutas e raízes comestíveis">
+      <div class="content">
+        <h2>Alimentação</h2>
+        <ul class="list-group">
+          <li>Identifique plantas e frutos seguros antes de consumir.</li>
+          <li>Priorize fontes de água potável e fervida.</li>
+          <li>Evite alimentos com cheiro ou gosto amargo desconhecido.</li>
+          <li>Use armadilhas simples para capturar pequenos animais.</li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <section id="sinais">
+      <img src="./assets/sinais de socorro.jpg" alt="Sinais de socorro com pedras e fumaça">
+      <div class="content">
+        <h2>Sinais de Socorro</h2>
+        <ol>
+          <li>Monte fogueiras em formato triangular — sinal internacional de SOS.</li>
+          <li>Use espelhos ou metais para refletir luz do sol.</li>
+          <li>Desenhe sinais grandes no chão com pedras ou galhos.</li>
+          <li>Mantenha uma fonte de fumaça visível durante o dia.</li>
+        </ol>
+      </div>
+    </section>
+
+    
+    <section id="primeiros-socorros">
+      <img src="./assets/kit medico.png" alt="Kit de primeiros socorros">
+      <div class="content">
+        <h2>Primeiros Socorros</h2>
+        <ul class="list-group">
+          <li>Limpe ferimentos com água limpa e cubra com pano esterilizado.</li>
+          <li>Improvise talas com gravetos e panos firmes.</li>
+          <li>Controle sangramentos com compressão direta.</li>
+          <li>Mantenha o ferido aquecido e calmo até ajuda chegar.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
