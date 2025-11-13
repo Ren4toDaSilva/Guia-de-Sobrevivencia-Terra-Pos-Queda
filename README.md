@@ -12,3 +12,5 @@ Renato: https://github.com/Ren4toDaSilva
 Gabriel: https://github.com/ShadowCoder56
 João: https://github.com/joao-riffel
 Luiz: https://github.com/luizxxz
+
+Link do Kanban: https://trello.com/invite/b/6913832e685b1b0db7d50dad/ATTIcb72145e73352890aaf861ed46fba85616020F27/kanban-quadro-modelo
