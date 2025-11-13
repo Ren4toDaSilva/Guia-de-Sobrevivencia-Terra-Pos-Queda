@@ -9,5 +9,5 @@ Lista de Paginas:
 
 Integrantes do grupo:
 Renato: https://github.com/Ren4toDaSilva
-Gabriel:
+Gabriel: https://github.com/ShadowCoder56
 João: https://github.com/joao-riffel
