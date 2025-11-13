@@ -1,11 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Táticas — Guias Práticos</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background: #ffffff;
+      color: #2b2b2b;
+    }
     
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    section:nth-child(even) {
+      grid-template-columns: 1fr 1fr;
+      direction: rtl;
+    }
+
+    section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 2rem;
+      direction: ltr;
+    }
+
+    h2 {
+      color: #1e293b;
+      margin-top: 0;
+    }
+
+    ol,
+    ul {
+      padding-left: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    ul.list-group li::marker {
+      color: #3b82f6;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        grid-template-columns: 1fr;
+      }
+
+      section:nth-child(even) {
+        direction: ltr;
+      }
+
+      .content {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<header>
+  <nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11"
+          aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+          <a class="navbar-brand col-lg-3 me-0" href="#">Guia de Sobrevivência</a>
+          <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="criaturas.html">Criaturas</a></li>
+            <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
+            <li class="nav-item"><a class="nav-link" href="taticas.html">Taticas</a></li>
+            <li class="nav-item"><a class="nav-link" href="relatar.html">Relatar</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </nav>
+</header>
+
+<body>
+  <main>
+
+    <section id="abrigos">
+      <img src="./assets/img/abrigo.jpg" alt="Abrigo improvisado na floresta">
+      <div class="content">
+        <h2>Abrigos</h2>
+        <ol>
+          <li>Escolha um local elevado e seco, longe de rios e vales.</li>
+          <li>Use galhos e folhas para isolamento térmico.</li>
+          <li>Monte o abrigo com uma entrada voltada contra o vento.</li>
+          <li>Crie uma camada de folhas secas como colchão natural.</li>
+        </ol>
+      </div>
+    </section>
+
+
+    <section id="alimentacao">
+      <img src="./assets/img/comida comestibesis.jpg" alt="Frutas e raízes comestíveis">
+      <div class="content">
+        <h2>Alimentação</h2>
+        <ul class="list-group">
+          <li>Identifique plantas e frutos seguros antes de consumir.</li>
+          <li>Priorize fontes de água potável e fervida.</li>
+          <li>Evite alimentos com cheiro ou gosto amargo desconhecido.</li>
+          <li>Use armadilhas simples para capturar pequenos animais.</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="sinais">
+      <img src="./assets/img/sinais de socorro.jpg" alt="Sinais de socorro com pedras e fumaça">
+      <div class="content">
+        <h2>Sinais de Socorro</h2>
+        <ol>
+          <li>Monte fogueiras em formato triangular — sinal internacional de SOS.</li>
+          <li>Use espelhos ou metais para refletir luz do sol.</li>
+          <li>Desenhe sinais grandes no chão com pedras ou galhos.</li>
+          <li>Mantenha uma fonte de fumaça visível durante o dia.</li>
+        </ol>
+      </div>
+    </section>
+
+
+    <section id="primeiros-socorros">
+      <img src="./assets/img/kit medico.png" alt="Kit de primeiros socorros">
+      <div class="content">
+        <h2>Primeiros Socorros</h2>
+        <ul class="list-group">
+          <li>Limpe ferimentos com água limpa e cubra com pano esterilizado.</li>
+          <li>Improvise talas com gravetos e panos firmes.</li>
+          <li>Controle sangramentos com compressão direta.</li>
+          <li>Mantenha o ferido aquecido e calmo até ajuda chegar.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

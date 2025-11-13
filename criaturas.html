@@ -1,11 +1,362 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<header>
+    <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+                    <a class="navbar-brand col-lg-3 me-0" href="#">Guia de Sobrevivência</a>
+                    <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="criaturas.html">Criaturas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="taticas.html">Taticas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="relatar.html">Relatar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+</header>
+
 <body>
-    
+    <div class="row mb-3 text-center">
+        <div class="col-4 themed-grid-col">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/criatura_espiral.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Espiral</h5>
+                    <p class="card-text"><strong>Descrição:</strong> Criatura bípede de pele translúcida, seus órgãos
+                        giram em espiral dentro do corpo. Move-se rapidamente em áreas úmidas.
+                    </p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalEspiral">Ver
+                        mais</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Espiral -->
+        <div class="modal fade" id="modalEspiral" tabindex="-1" aria-labelledby="modalEspiralLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalEspiralLabel">Espiral</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <img src="./assets/img/criatura_espiral.png" class="img-fluid rounded mb-3" alt="Espiral">
+                        <p><strong>Descrição Completa:</strong> Criatura bípede de pele translúcida, com órgãos girando
+                            em espiral. Movimenta-se de forma irregular e é sensível a vibrações sonoras.</p>
+                        <p><strong>Regiões:</strong> Pântanos e ruínas subterrâneas.</p>
+                        <p><strong>Nível de Perigo:</strong> Alto</p>
+                        <p><strong>Ponto fraco:</strong> Sensível à luz ultravioleta — evite confrontos noturnos.</p>
+                        <p><strong>Tática recomendada:</strong> Utilize lanternas UV ou refletores improvisados para desorientá-la e escapar.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-4 themed-grid-col">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/criatura_rastejante.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rastejante Cinzento</h5>
+                    <p class="card-text"><strong>Descrição:</strong> Parasita com múltiplos apêndices e odor
+                        característico de enxofre. Habita ruínas e galerias subterrâneas.
+                    </p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRastejante">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Rastejante -->
+        <div class="modal fade" id="modalRastejante" tabindex="-1" aria-labelledby="modalRastejanteLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalRastejanteLabel">Rastejante Cinzento</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body text-start">
+              <img src="./assets/img/criatura_rastejante.png" class="img-fluid rounded mb-3" alt="Rastejante Cinzento">
+              <p><strong>Descrição Completa:</strong> Parasita corpulento que se move lentamente pelas paredes e tetos.
+                O odor de enxofre antecede sua presença. Extremamente agressivo ao detectar luz intensa.</p>
+              <p><strong>Habitat:</strong> Ruínas e túneis subterrâneos.</p>
+              <p><strong>Nível de Perigo:</strong> Médio</p>
+              <p><strong>Ponto fraco:</strong> Vulnerável ao som de alta frequência.</p>
+              <p><strong>Tática recomendada:</strong> Use alarmes portáteis, rádios danificados ou metal contra metal para afastá-lo.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-4 themed-grid-col">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/criatura_sirena.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sirena</h5>
+                    <p class="card-text"><Strong>Descrição:</Strong> Criatura aquática que imita vozes humanas para
+                        atrair vítimas. Presente em zonas costeiras e canais contaminados.
+                    </p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSirena">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <!--- Modal Sirena --->
+        <div class="modal fade" id="modalSirena" tabindex="-1" aria-labelledby="modalSirenaLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSirenaLabel">Sirena</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="./assets/img/criatura_sirena.png" class="img-fluid rounded mb-3" alt="Sirena">
+                  <p><strong>Descrição Completa:</strong> Enganadora por natureza, a Sirena atrai vítimas reproduzindo vozes
+                    familiares. Seu canto emite ondas sonoras que desorientam a audição.</p>
+                  <p><strong>Habitat:</strong> Litoral e canais contaminados.</p>
+                  <p><strong>Nível de Perigo:</strong> Extremo</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-4 themed-grid-col">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/criatura_oco.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Oco</h5>
+                    <p class="card-text"><Strong>Descrição:</Strong> Figura humanoide oca, emite sons metálicos ao se
+                        mover. Encontrada em áreas industriais.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalOco">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Oco -->
+        <div class="modal fade" id="modalOco" tabindex="-1" aria-labelledby="modalOcoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalOcoLabel">Oco</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="./assets/img/criatura_oco.png" class="img-fluid rounded mb-3" alt="Oco">
+                  <p><strong>Descrição Completa:</strong> Ser humanoide vazio, com superfície metálica ressonante. Reage a
+                    sons altos e tende a imitar movimentos humanos antes de atacar.</p>
+                  <p><strong>Habitat:</strong> Zonas industriais abandonadas.</p>
+                  <p><strong>Nível de Perigo:</strong> Médio</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-4 themed-grid-col">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/criatura_carnical.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Carniçal de Névoa</h5>
+                    <p class="card-text"><strong>Descrição:</strong> Forma gasosa que se condensa apenas ao atacar.
+                        Invisível ao olho nu fora da neblina.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarnical">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Carniçal -->
+        <div class="modal fade" id="modalCarnical" tabindex="-1" aria-labelledby="modalCarnicalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalCarnicalLabel">Carniçal de Névoa</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body text-start">
+              <img src="./assets/img/criatura_carnical.png" class="img-fluid rounded mb-3" alt="Carniçal de Névoa">
+              <p><strong>Descrição Completa:</strong> Entidade gasosa que se materializa em meio à neblina. Seus ataques
+                drenam o calor corporal. Evite regiões enevoadas após o crepúsculo.</p>
+              <p><strong>Habitat:</strong> Regiões frias e úmidas.</p>
+              <p><strong>Nível de Perigo:</strong> Alto</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-4 themed-grid-col">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/criatura_vetor.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vetor</h5>
+                    <p class="card-text"><strong>Descrição:</strong> Pequenos enxames de insetos biocibernéticos.
+                        Desativam circuitos e atacam em massa.
+                    </p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalVetor">Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Vetor -->
+        <div class="modal fade" id="modalVetor" tabindex="-1" aria-labelledby="modalVetorLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalVetorLabel">Vetor</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="./assets/img/criatura_vetor.png" class="img-fluid rounded mb-3" alt="Vetor">
+                  <p><strong>Descrição Completa:</strong> Enxame de microinsetos metálicos programados para desativar
+                    circuitos e consumir matéria orgânica. Barulho semelhante a estática denuncia sua presença.</p>
+                  <p><strong>Habitat:</strong> Fábricas e ruínas tecnológicas.</p>
+                  <p><strong>Nível de Perigo:</strong> Muito Alto</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-4 themed-grid-col">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/criatura_mimetico.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mimético</h5>
+                    <p class="card-text"><strong>Descrição:</strong> Copia aparência e voz de humanos recentemente
+                        observados. Quase indistinguível até atacar.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMimetico">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Mimetico -->
+        <div class="modal fade" id="modalMimetico" tabindex="-1" aria-labelledby="modalMimeticoLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalMimeticoLabel">Mimético</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body text-start">
+              <img src="./assets/img/criatura_mimetico.png" class="img-fluid rounded mb-3" alt="Mimético">
+              <p><strong>Descrição Completa:</strong> Entidade adaptativa que imita aparência, voz e comportamento de
+                humanos. Falhas sutis na expressão facial e ausência de reflexo podem denunciá-lo.</p>
+              <p><strong>Habitat:</strong> Áreas urbanas desertas.</p>
+              <p><strong>Nível de Perigo:</strong> Extremo</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-4 themed-grid-col">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/criatura_colosso.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Colosso de Ferro</h5>
+                    <p class="card-text"><strong>Descrição:</strong> Mutação massiva de antiga maquinaria industrial.
+                        Move-se lentamente, mas com força devastadora.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalColosso">Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Colosso-->
+        <div class="modal fade" id="modalColosso" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Colosso de Ferro</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./assets/img/criatura_colosso.png" class="img-fluid rounded mb-3">
+                  <p><strong>Descrição Completa:</strong> Fusão entre maquinário industrial e matéria orgânica. Move-se lentamente, mas possui força devastadora, capaz de derrubar estruturas inteiras.</p>
+                  <p><strong>Regiões:</strong> Complexos industriais desativados.</p>
+                  <p><strong>Nível de Perigo:</strong> Muito Alto.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-4 themed-grid-col">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/criatura_alfa.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vácuo Alfa</h5>
+                    <p class="card-text"><strong>Descrição:</strong> A mais rara e perigosa mutação conhecida.
+                        Alimenta-se de energia vital e deixa regiões inteiras inabitáveis.
+                    </p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAlfa">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Alfa -->
+    <div class="modal fade" id="modalAlfa" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Vácuo Alfa</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/img/criatura_alfa.png" class="img-fluid rounded mb-3">
+              <p><strong>Descrição Completa:</strong> A mutação mais rara e perigosa conhecida. Consome energia vital e deixa regiões inteiras estéreis. Pouco se sabe sobre sua origem ou propósito.</p>
+              <p><strong>Regiões:</strong> Desconhecidas.</p>
+              <p><strong>Nível de Perigo:</strong> Catastrófico.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
